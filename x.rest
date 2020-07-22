@@ -1,0 +1,17 @@
+GET http://localhost:3000/subscribers/
+5f184c7b25f8602580c64bcc
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"arash",
+    "subscribeToChanel":"Travesy"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/
+5f184c7b25f8602580c64bcc
